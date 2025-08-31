@@ -1,0 +1,111 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: gainsboro;
+    color: gray;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+
+h2, h3 {
+    font-family: "Sofia", sans-serif;
+}
+
+#intro img {
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 15%;
+}
+
+section img {
+    width: 20.5%;
+    margin-left: 3%;
+    border-radius: 4%;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+tr {
+    background-color: gainsboro;
+}
+
+tr:hover {
+    background-color: gray;
+}
+
+blockquote {
+    font-family: "Sofia", sans-serif;
+    background-color: gainsboro;
+    padding: 20px;
+    border-left: solid 3px gray;
+}
+
+button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.destination {
+    border: 2px solid gray;
+    padding: 2%;
+    border-radius: 5%;
+    background-color:#f4f4f4;
+}
+
+footer {
+    background-color: gainsboro;
+    padding: 8px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+footer a {
+    color: #04AA6D;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer a:hover {
+    color: black;
+}
+
+#contact a {
+    color: #04AA6D;
+    text-align: center;
+}
+#contact a:hover {
+    color: blue;
+}
